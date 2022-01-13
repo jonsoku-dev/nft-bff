@@ -1,0 +1,8 @@
+type Query {
+  sayBye: String!
+  sayHello: String!
+}
+
+schema {
+  query: Query
+}
